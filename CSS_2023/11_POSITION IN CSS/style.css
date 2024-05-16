@@ -1,0 +1,54 @@
+/* * {
+    margin: 0px;
+    padding: 0px;
+} */
+
+.parents{
+
+    border: 3px solid purple;
+    position: absolute;
+
+
+
+    /* exception properties  */
+    /* transform: translate(0);
+    filter: invert(0);
+    perspective: 0em; */
+}
+
+.box{
+    border: 3px solid black;
+    height: 13em;
+    width: 80vw;
+    margin: 3px;
+    padding: 3px;
+}
+
+.box1 {
+    background-color: aqua;
+    position: absolute;
+    top: 0px;
+    /* bottom: 29px; */
+    height: 111px;
+    width: 100%;
+
+}
+
+.box2 {
+    background-color: red;
+    /* position: absolute; */
+    /* top: 34px; */
+    /* left: 56px; */
+}
+
+.box3 {
+    background-color: yellow;
+    position: fixed;
+    bottom: 0px;
+    left: 8vw;
+    height: 111px;
+}
+
+.box4 {
+    background-color: orange;
+}

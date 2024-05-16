@@ -1,0 +1,35 @@
+#boxs{
+    /* border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    padding: 12em;
+    margin: 12rem; */
+    display: flex;
+
+}
+
+#box{
+    border: 3px solid steelblue;
+    width: 344px;
+    height: 344px;
+    padding: 4px;
+    margin: 2px;
+}
+
+@media screen and (max-width:480px ){
+
+    body{
+        background-color: antiquewhite;
+    }
+    #boxs{
+        flex-direction: column;
+    }
+    #box{
+        background-color: red;
+        display: inline;
+        width: 100px;
+        height: 100px;
+        padding: 22px 12px ;
+        
+    }
+}

@@ -1,0 +1,43 @@
+.cont{
+    background-color: aqua;
+    width: 30vw;
+    height: 80vh;
+}
+
+.box{
+    width: 34px;
+    height: 45px;
+    background-color: brown;
+    /* animation: harrkaanimation;
+    animation-duration: 3s;
+    animation-iteration-count: 3;
+    animation-timing-function:ease-in-out;
+    animation-delay: 1s;
+    animation-direction:alternate;
+    animation-play-state:running;
+    animation-fill-mode: forwards ; */
+
+    animation: harrkaanimation 3s ease-in-out 1s 3 alternate-reverse forwards , harry1 2s ease-in-out 1s 4 reverse backwards;
+
+
+}
+
+@keyframes harrkaanimation{
+    from{
+        transform: translateX(10px);
+        background-color: red;
+    }
+    to{
+        transform: translateX(100px);
+        background-color: blue;
+    }
+}
+
+@keyframes harry1{
+    0%{ transform: rotate(100deg);}
+    20%{transform: rotate(200deg);}
+    30%{transform: rotate(300deg);}
+    50%{transform: rotate(400deg);}
+    80%{transform: rotate(500deg);}
+    100%{transform: rotate(600deg);}
+}

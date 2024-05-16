@@ -1,0 +1,15 @@
+div , span{
+    background-color: aqua;
+    color: brown;
+}
+
+p{
+    background-color: aquamarine;
+    color: blueviolet;
+}
+
+/* selector properties and its value are used to design html code  */
+
+/* 1) div , span , p are the element selector */
+/* 2) background-color abd color are the properties  */
+/* 3) aqua and brown are the value of that properites */

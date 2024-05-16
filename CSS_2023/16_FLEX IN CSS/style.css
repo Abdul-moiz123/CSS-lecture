@@ -1,0 +1,70 @@
+.contanier{
+    border: 3px solid black;
+    height: 80vh;
+
+
+    display: flex;
+    justify-content:start;
+
+    align-items: end;     /* for one line*/
+    align-content: center;   /* for more than one line*/
+
+    flex-direction: column;
+    flex-direction: column-reverse;
+    flex-direction: row;
+    flex-direction: row-reverse;
+
+    flex-wrap: wrap;
+    flex-wrap: nowrap;    /* by default*/
+    flex-wrap: wrap-reverse;
+
+
+    flex-flow: row wrap;    /*direction , wrap */
+
+    gap: 12px ;
+    row-gap: 40px;
+    column-gap: 10px;
+    gap: 40px 10px;   /* shortcut (row , col) */
+
+}
+
+.item{
+    height: 92px;
+    width: 92px;
+    background-color: blueviolet;
+    border: 3px solid black;
+    /* margin: 4px; */
+    font-size: xx-large;
+ 
+}
+
+#div1{
+    flex-grow: 12;    /* increase with repect to diection*/
+    flex-shrink: 2;    /*ability to compress itself */
+    align-self:flex-end;
+}
+
+
+#div2{
+    flex-grow: 4;
+    flex-shrink: 2;
+    align-self: flex-end;  /* this will works only when there is no align-content */
+}
+
+/* high in order will come first , lower the order will come end */
+
+.order-1{
+    order:1;
+    margin: 24px;
+}
+
+
+.order-2{
+    order:2;
+    margin: 24px;
+}
+
+.order-3{
+    order:3;
+    margin: 24px;
+}

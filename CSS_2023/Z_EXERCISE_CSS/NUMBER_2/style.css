@@ -1,0 +1,35 @@
+:root{
+    --nav-color:aqua;
+    --body-color:rgb(176, 247, 247);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#div1 nav{
+    background-color: var(--nav-color);
+}
+
+body{
+    background-color: var(--body-color);
+}
+
+#div1 nav ul{
+    list-style: none;
+    display: flex;
+}
+
+#div1 nav ul li{
+    padding: 12px 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+#div1 nav ul li a{
+    text-decoration: none;
+
+}

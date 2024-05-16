@@ -1,0 +1,32 @@
+/* specification of universal selector is 0 */
+.p4{
+    background-color: aqua;
+    color: blueviolet;
+}
+
+/* specification of element selector and pesudu elements is 1 */
+#p3{
+    background-color: aqua;
+    color: blueviolet;
+}
+
+/* specification of class,attributes and pesudo classes selector is 10 */
+.p2{
+    background-color: aqua;
+    color: blueviolet;
+}
+
+/* specification of id selector is 100 */
+#p1{
+    background-color: aqua;
+    color: blueviolet;
+}
+
+/* specification of inline selector is 1000 */
+
+
+/* specification of importance selector is 10000 */
+#p5{
+    background-color: aqua !important;
+    color: blueviolet !important;
+}

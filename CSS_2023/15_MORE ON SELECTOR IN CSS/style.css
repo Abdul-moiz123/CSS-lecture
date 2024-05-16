@@ -1,0 +1,57 @@
+.box:first-child{
+    background-color: aqua;
+}
+
+.box::first-letter{
+    color: chartreuse;
+    font-size: xx-large;
+}
+
+.box::first-line{
+    color: blueviolet;
+}
+
+.box:nth-child(even){   /* odd , 1,2,3,4...n, */
+    background-color: blueviolet;
+}
+
+.box:nth-last-child(3){   /* count from last*/
+    color: yellow;
+}
+
+.boxes::before{    /* will insert the contact at the start of html */
+    content: "harry is good boy";
+    color: red;
+    background-color: yellow;
+}
+
+.boxes::after{    /* will insert the contact at the end of html */
+    content: "moiz is good boy";
+}
+
+
+/* for selection of the text to copy pste etc */
+::selection{
+    background-color: black;
+    color: aqua;
+}
+
+
+/* universal selctor for repective classes/id */
+boxes *{
+    background-color: brown;
+    border: 3px solid black;
+}
+
+/* attributes selector */
+[data-color="primary"]{
+    margin-top: 45px;
+    padding-top: 45px;
+    border: 3px solid black;
+}
+
+/* grouping od selector */
+p,a,.box, [data-color="primary"]{
+    margin-top: 45px;
+}
+

@@ -1,0 +1,29 @@
+nav ul li{
+
+    /* list-style-type: ;(emoji,image etc) */
+
+
+
+
+    /* list-style: upper-alpha;
+    list-style: upper-alpha;
+    list-style: image(""); 
+    list-style: lower-greek;
+    list-style: none;
+    list-style: 😍;
+    
+
+
+    background-color: yellow;
+    list-style-position: inside;
+
+    
+    border: 2px solid black; */
+
+
+
+    /* for navigation bar */
+    display: inline-flex;
+    list-style: none;
+    padding: 20px;
+}

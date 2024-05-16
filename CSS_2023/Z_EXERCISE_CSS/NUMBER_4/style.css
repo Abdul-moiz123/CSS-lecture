@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .nav nav ul {
+    display: flex;
+    /* justify-content: end; */
+    /* align-items: end;
+    gap: 23px 99px;
+    margin: 12px;
+} */
+
+/* .nav nav ul li{
+    align-self: flex-end;
+} */ 
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 16px;
+}
+
+#nav ul{
+    list-style: none;
+    display: flex;
+    gap: 12px 99px;
+    margin: 16px;
+}
+
+#nav h6{
+
+    /* display: flex; */
+    margin: 16px;
+
+}

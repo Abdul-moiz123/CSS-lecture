@@ -1,0 +1,16 @@
+#div1,#div2{
+    display: inline-block;
+    margin: 25px;
+    padding: 25px;
+    border: 2px solid black;
+}
+
+#div1{
+    /* display: none; */
+    visibility: hidden;
+}
+
+#div2{
+    display: inline-flex;
+    justify-content: left;
+}

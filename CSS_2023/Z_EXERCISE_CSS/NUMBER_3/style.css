@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#parents{
+    border: 3px solid black;
+    background-color:black;
+    width: 100%;
+    height: 60em;
+    position: absolute;
+    top: 0px;
+}
+
+
+
+#child1{
+    background-color: palevioletred;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    height: 4vw;
+    overflow:hidden;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+
+}
+#child1 ul{
+    list-style: none;
+    display: flex;
+}
+#child1 li{
+    margin: 10px;
+    padding: 10px 120px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+#child1 a{
+    text-decoration: none;
+}
+
+
+#child2 #div1{
+    width: 95%;
+    height: 30vw;
+    text-align: center;
+    position: relative;
+    background-color: green;
+    top: 7vh;
+    left: 2.5vw;
+    display: flex;
+}
+
+#child2 #div1 #div2{
+    background-color: sandybrown;
+    text-align: center;
+    display: flex;
+    width: 40%;
+    height: 20vw;
+    position: relative;
+    top: 10vh;
+    left: 6em;
+}
+
+
+#child2 #div1 #div3{
+    background-color: lightblue;
+    display: flex;
+    width: 40%;
+    height: 20vw;
+    position: relative;
+    top: 10vh;
+    left: 12em;
+    text-align: center;
+}
+
+
+#child3 #div4{
+    background-color: orchid;
+    width: 80%;
+    height: 200px;
+    position: relative;
+    top: 9vh;
+    left: 9.5em;
+    border-radius: 50px;
+    text-align: center;
+
+}
+
+#parents svg{
+    position: fixed;
+    bottom: 76px;
+    left: 85em;
+    z-index: 1;
+}
+
+#child4 footer address{
+    background-color: aqua;
+    display: block;
+    color: aliceblue;
+    height: 100px;
+    position: relative;
+    top: 6em;
+    font-size: x-large;
+    text-align: center;
+
+}

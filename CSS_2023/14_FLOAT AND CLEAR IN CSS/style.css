@@ -1,0 +1,17 @@
+#parents{
+     border: 2px solid black;
+     display: flow-root;
+}
+
+.child{
+    border: 2px solid red;
+
+}
+
+img{
+    float:right;
+}
+
+.child:nth-child(3){
+    clear: both;
+}

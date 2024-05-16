@@ -1,0 +1,46 @@
+body{
+    background-color: gray;
+}
+#parents{
+    border: 3px solid black;
+    height: 50vw;
+    width: 50vh;
+    position: relative;
+    top: 10em;
+    left: 36em;
+    border-radius: 23px;
+    background-color: white;
+}
+
+#div1 img{
+    border: 2px solid black;
+    border-radius: 23px;
+    margin: 32px;
+
+}
+
+#div2 span{
+    border: 2px solid black;
+    border-radius: 52px;
+    padding: 4px 10px;
+    margin: 10px;
+    position: relative;
+    left: 2vh;
+    font-weight: bolder;
+}
+
+#div3 h2,p{
+    font-weight: bolder;
+    padding: 6px 24px;
+}
+
+#div4 button{
+    font-size: large;
+    position: relative;
+    top: 23px;
+    left: 119px;
+    border-radius: 23px;
+    padding: 13px;
+    color: blue;
+    background-color: lightskyblue;
+}
